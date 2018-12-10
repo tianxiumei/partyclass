@@ -1,0 +1,16 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	font-size: 16px;
+	.wrapper{
+		min-height: 81vh;
+		background-image: url("../../src/moudles/imgs/t.jpg");
+		background-size: 100%;
+		padding-top: 90px;
+		padding-bottom: 50px;
+    // background-repeat: no-repeat;
+  }
+}

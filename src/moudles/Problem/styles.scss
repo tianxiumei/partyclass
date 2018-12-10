@@ -1,0 +1,129 @@
+.box {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	margin-left: 10%;
+	@media (max-width: 900px) {
+		width:100%;
+		display: block;
+		margin-left: 1%;
+	}
+	fieldset {
+		border-radius: 5px;
+	}
+	.wrapper{
+		width: 25%;
+		@media (max-width: 900px) {
+			width:100%;
+			display: flex;
+		}
+		.marf{
+			text-align: center;
+			height: 100px;
+			padding-top: 50px;
+			@media (max-width: 900px) {
+				width:48%;
+			}
+		}
+	}
+	.problem_content{
+		width: 70%;
+		@media (max-width: 900px) {
+			width:98%;
+			margin-left: 0rem;
+			margin-top: 10px;
+		}
+		margin-left: 1rem;
+		.problem_wrapper{
+			min-height: 300px;
+			overflow: hidden;
+			position: relative;
+			@media (max-width: 580px) {
+				min-height: 380px;
+			}
+			.title{
+				height: auto;
+				padding-left: 5px;
+
+			}
+			.checks{
+				margin-bottom: 50px;
+				padding-left: 5px;
+				height: auto;
+				margin-top: 10px;
+			}
+			.problem_botton{
+				position: absolute;
+				bottom: 4px;
+				line-height: 30px;
+				width: 100%;
+				padding-left: 5px;
+				.bott{
+					input{
+						width: 15%;
+						height: 30px;
+						@media (max-width: 900px) {
+							width: 20%;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
+.bottom{
+	margin-bottom: 40px;
+	width: 77%;
+	margin-left: 10%;
+	@media (max-width: 900px) {
+		width: 100%;
+		margin-left: 0%;
+	}
+	.exam_ul {
+		padding: 10px 0px 0px 15px;
+		list-style: none;
+		.lit{
+
+			margin-right: 10px;
+			// padding: 5px;
+		}
+		li{
+			display: inline-block;
+			border: #9A9A9A solid 1px;
+			margin-top: 10px;
+			padding: 5px;
+			margin-left: 5px;
+			margin-bottom: 5px;
+			cursor: pointer;
+			border-radius: 3px;
+			width: 3%;
+			text-align: center;
+			background-color: #F6F6F6;
+			@media (max-width: 900px) {
+				width: 7%;
+			}
+		}
+		li:hover {
+			border-color: red;
+			background-color: #5C9CFF;
+		}
+	}
+}
+.tier{
+	position: fixed;
+	top:30%;
+	left: 40%;
+	z-index: 555;
+	display: block;
+	text-align: center;
+	@media (max-width: 580px) {
+		left: 25%;
+	}
+	input{
+		width: 200px;
+		height: 100px;
+		font-size: 20px;
+	}
+
+}
